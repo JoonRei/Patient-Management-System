@@ -1,0 +1,359 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0085FF;
+    padding-top: 20px;
+}
+
+.sidebar .header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar .header img {
+    width: 70px;
+    height: auto;
+}
+
+.sidebar .header h2 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sidebar a {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar a i {
+    margin-right: 15px; 
+    flex-shrink: 0; 
+}
+
+.sidebar a:hover {
+    background-color: #807e7e;
+}
+
+.content {
+    margin-left: 250px;
+    margin-top: 10px; 
+    padding: 20px;
+}
+
+.content h1 {
+    color: #333;
+    font-size: 25px;
+}
+
+/* Search Bar */
+
+
+.patient-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.patient-table th, .patient-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.patient-table th {
+    background-color: #f2f2f2;
+}
+
+.top-panel {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(121, 120, 120, 0.973);
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-title h2 {
+    color: #333;
+    margin: 0;
+    font-size: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-circle {
+    width: 30px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-initials {
+    color: #333;
+    font-size: 20px;
+}
+
+.username {
+    color: #333;
+    font-size: 16px;
+}
+
+
+
+.add-patient-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(121, 120, 120, 0.973);
+}
+
+.add-patient-form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 0 0 48%; 
+}
+
+.gender-radio {
+    display: flex;
+    align-items: center;
+}
+
+.gender-radio input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #a30606;
+    color: #fff;
+    margin-right: 575px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.user-table {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.user-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Add User button */
+.add-user {
+    display: flex;
+    align-items: center;
+}
+
+.add-user-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px; 
+    text-decoration: none;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.user-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(121, 120, 120, 0.973);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.add-user-container h2 {
+    margin-bottom: 10px;
+}
+
+.add-user-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row {
+    display: flex;
+}
+
+.input-row .form-group {
+    flex: 1;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.input-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group select {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-user-btn {
+    width: 150px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
